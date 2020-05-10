@@ -1,0 +1,34 @@
+{
+  "name": "anc-hyp-pres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "Sarah Rooney rooney.sarah2@gmail.com",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babelify": "^10.0.0",
+    "brfs": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-env": "^0.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "^2.7.0",
+    "gulp-watch": "^5.0.1",
+    "ip": "^1.1.5",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "nib": "^1.1.2",
+    "require-dir": "^1.1.0",
+    "sop-styl": "^1.5.7",
+    "yamlify": "^0.2.0"
+  }
+}
