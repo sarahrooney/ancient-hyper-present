@@ -63,22 +63,33 @@
 
       <div class="home__content__wrap">
         <h1 class="sr-only">Ancient Hyper Present</h1>
-        <div class="home__content__columns">
-          <div class="column-flex column-flex--1"></div>
-          <div class="column-flex column-flex--2">
-            <img class="column-item"
-              src="./assets/images/summary.jpg"
-              alt="Ancient Hyper Present summary">
-            <video class="column-item"
-              poster="./assets/images/video-poster.jpg"
-              mute autoplay controls="hidden">
-            </video>
-            <img class="column-item"
-              src="./assets/images/garden.jpg"
-              alt="Garden">
-          </div>
-          <div class="column-flex column-flex--1"></div>
+        <div class="home__content__row home__content__row--vid">
+          <iframe class="video"
+            src="https://player.vimeo.com/video/93950567?autoplay=1&muted=1&lopp=1"
+            allow="autoplay; fullscreen" allowfullscreen
+            frameborder="0">  
+          </iframe>
         </div>
+        <div class="home__content__row home__content__row--book">
+          <div class="container-bk">
+            <div class="boockup">
+              <div class="book-container">
+                <div class="book-front"></div>
+                <div class="book-side-left"></div>
+                <div class="book-side-right"></div>
+                <div class="book-top"></div>
+                <div class="book-bottom"></div>
+                <div class="book-back"></div>
+              </div>
+            </div>
+          </div>
+          <!-- <a href="http://boockup.marco.land"><div id="credit">Created with Boockup</div></a> -->
+          <a class="inline-cta" href="test_file.zip" download>Download PDF of Book</a>
+        </div>
+
+        <img class="home__content__bottom-img"
+          src="./assets/images/landing-logo-sm.png"
+          alt="Ancient Hyper Present lockup">
       </div>
     </section>
   </body>

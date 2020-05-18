@@ -16,7 +16,15 @@ landingButton.addEventListener('click', function() {
 	window.setTimeout(function() {
   	landingSec.style.display = 'none';
   	main.style.overflow = 'scroll';
-  }, 1500);
+  	homeContent.style.display = 'block';
+  }, 1750);
 
-	homeContent.classList.add('fade')
+  window.setTimeout(function() {
+  	homeContent.style.display = 'block';
+  }, 200);
+
+  window.setTimeout(function() {
+		homeContent.classList.add('fade')
+  }, 1000);
+
 });
